@@ -1,0 +1,157 @@
+* {
+  font-family: Helvetica;
+  color: seashell;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  margin: 0;
+
+}
+
+.header img {
+  height: 100%;
+  margin: 10px;
+  max-width: 100%;
+}
+.header {
+  display: flex;
+  background-color: black;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  height: 69px;
+  width: 100%;
+  margin: 0 auto 0 auto;
+  z-index: 5;
+  justify-content: space-between;
+}
+
+#logo {
+  height: 50px;
+}
+
+.navigation {
+  text-decoration: underline;
+  font-size: 22px;
+  display: inline-flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex: 2 1 300px;
+  gap: 25px;
+  margin: 5px;
+  padding: 5px;
+  /* transition:  */
+}
+
+#missions {
+  transition: color 1.2s ease-in 2s,
+    font-family 500s 1s linear 200ms;
+}
+
+#missions:hover {
+  color: red;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+#mission {
+  position: relative;
+  background: url(./images/img-mission-background.webp);
+  top:70px;
+  display: flex;
+  height: 700px;
+  width: 1200px;
+  justify-content: center;
+  align-items: center;
+}
+
+#mission_statement {
+  background-color: black;
+  width: 1200px;
+  text-align: center;
+}
+
+#special_title {
+  position: relative;
+  top: 100px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+#featured {
+  position: relative;
+  top: 100px;
+  display: inline-flex;
+  flex-flow: row wrap;
+  flex: 1 2 300px;
+  width: 1200px;
+  height: 500px;
+  justify-content: center;
+}
+
+#featured img {
+  width: 300px;
+  height: 200px;
+  margin: 10px;
+}
+
+
+figcaption {
+  text-align: center;
+  font-size: 22px;
+  font-family: Helvetica;
+  
+}
+
+#locations {
+  display: inline-flex;
+  position: relative;
+  flex-wrap: wrap;
+  width: 1200px;
+  top: 150px;
+  height: 500px;
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+  background: url("./images/img-locations-background.webp");
+}
+
+.all_blocks {
+  display: flex
+  /* flex-flow: horizontal wrap; */
+}
+
+.blocks {
+  background: black;
+  text-align: center;
+  width: 300px;
+  margin-top: 0px;
+  margin-left: 40px;
+}
+
+#location-title {
+  display: flex;
+  /* position: relative; */
+  align-items: flex-end;
+  justify-content: center;
+  /* position: top; */
+  width: 1200px
+}
+
+#about {
+  position: relative;
+  text-align: center;
+  top: 150px;
+  height: 200px;
+}
+
+#footer {
+  margin: 20px;
+  text-align: left;
+  position: relative;
+  top: 150px;
+}
+
